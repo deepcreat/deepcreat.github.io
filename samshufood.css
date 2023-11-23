@@ -17,7 +17,7 @@ p{
   }
 
 #photos{
-  border-width:thin;
+  border-width: 6px;
   border-style:solid;
   border-color:#007e7e;
   width: 200px;
@@ -35,4 +35,25 @@ p{
   line-height: 1;/*行高为其字体大小的一倍*/
 
   float:  right;
+}
+
+.album{
+    font-style: italic;
+}
+.songs{
+  font-weight:bold;
+}
+
+a:link{
+  color: #8888FF;
+}
+a:visited{
+  color: #8888FF;
+}
+a:hover{
+  color: #8888FF;
+}
+
+a{
+  text-decoration:none;
 }
